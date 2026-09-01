@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - PRINTSCREEN
+  - ESC
   - H
   - J
   - K
@@ -36,12 +36,12 @@ layers:
   - {t: '&to_layer_0 SLASH', h: '3'}
   - LCTRL
   - LEFT WIN
-  - LEFT ALT
-  - '&mkp MB3'
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANGUAGE_2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: '&to_layer_0 LEFT_ALT', h: '4'}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: '&to_layer_0 SPACE', h: '1'}
+  - {t: '&to_layer_0 SPACE', h: '2'}
+  - LANG ZENKAKUHANKAKU
   - BACKSPACE
   '1':
   - '1'
@@ -63,7 +63,7 @@ layers:
   - '"'
   - <
   - '>'
-  - {t: ▽, type: trans}
+  - /
   - '|'
   - F1
   - F2
@@ -82,9 +82,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - \
   '2':
   - '!'
@@ -102,7 +102,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
@@ -110,11 +111,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Ctl+C
   - Ctl+V
-  - F11
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB3'
@@ -130,10 +130,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - ESC
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -169,11 +169,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
-  - {t: ▽, type: trans}
+  - Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,18 +183,18 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,11 +208,11 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '&studio_unlock', type: held}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
